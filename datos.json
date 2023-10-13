@@ -1,0 +1,44 @@
+[
+  {
+    "codigoProducto": "01", 
+    "nombreProducto": "BLUSA",
+    "inventarioProducto": 17,
+    "precioProducto": 45000
+  },
+  {
+    "codigoProducto": "02",
+    "nombreProducto": "PANTALON",
+    "inventarioProducto": 19,
+    "precioProducto": 15000
+  },
+  {
+    "codigoProducto": "03",
+    "nombreProducto": "CHAQUETA",
+    "inventarioProducto": 12,
+    "precioProducto": 1000
+  },
+  {
+    "codigoProducto": "04",
+    "nombreProducto": "ZAPATOS",
+    "inventarioProducto": 3,
+    "precioProducto": 35000
+  },
+  {
+    "codigoProducto": "05",
+    "nombreProducto": "BUSO",
+    "inventarioProducto": 11,
+    "precioProducto": 75000
+  },
+  {
+    "codigoProducto": "06",
+    "nombreProducto": "CELULAR",
+    "inventarioProducto": 5,
+    "precioProducto": 65500
+  },
+  {
+    "codigoProducto": "07",
+    "nombreProducto": "TENIS",
+    "inventarioProducto": 17,
+    "precioProducto": 655000
+  }
+]
