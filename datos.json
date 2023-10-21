@@ -1,44 +1,44 @@
 [
   {
-    "codigoProducto": "01", 
-    "nombreProducto": "BLUSA",
-    "inventarioProducto": 17,
+    "codigoProducto": "01",
+    "nombreProducto":"BLUSA",
+    "inventarioProducto": 12,
     "precioProducto": 45000
   },
   {
     "codigoProducto": "02",
-    "nombreProducto": "PANTALON",
-    "inventarioProducto": 19,
+    "nombreProducto":"BUSO",
+    "inventarioProducto": 9,
     "precioProducto": 15000
   },
   {
     "codigoProducto": "03",
-    "nombreProducto": "CHAQUETA",
-    "inventarioProducto": 12,
+    "nombreProducto":"CHAQUETA",
+    "inventarioProducto": 9,
     "precioProducto": 1000
   },
   {
     "codigoProducto": "04",
-    "nombreProducto": "ZAPATOS",
-    "inventarioProducto": 3,
+    "nombreProducto":"TENIS",
+    "inventarioProducto": 8,
     "precioProducto": 35000
   },
   {
     "codigoProducto": "05",
-    "nombreProducto": "BUSO",
-    "inventarioProducto": 11,
+    "nombreProducto":"PANTALON",
+    "inventarioProducto": 18,
     "precioProducto": 75000
   },
   {
     "codigoProducto": "06",
-    "nombreProducto": "CELULAR",
-    "inventarioProducto": 5,
+    "nombreProducto":"ZAPATILLAS",
+    "inventarioProducto": 10,
     "precioProducto": 65500
   },
   {
     "codigoProducto": "07",
-    "nombreProducto": "TENIS",
-    "inventarioProducto": 17,
+    "nombreProducto":"TELEFONO",
+    "inventarioProducto": 16,
     "precioProducto": 655000
   }
 ]
