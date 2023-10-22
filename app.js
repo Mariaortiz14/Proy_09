@@ -73,7 +73,7 @@ async function main() {
       return this.#listaProductos;
     }
 //definimos el metodo que es de productos tienda llamado cargar archivos productos
-     cargaArchivosProductos(){
+     cargaArchivoProductos(){
 //utilizamos un contador
       let contador = 0;
       //usamos el if-else para determinar si el ciclo se cumple
@@ -94,19 +94,19 @@ async function main() {
       console.log(`Total de productos cargados ==> `.blue + `${contador}`.red);
     }
 //usamos el metodo graba archivos productos
-    grabaArchivosProductos(){
+    grabaArchivoProductos(){
 /*Esta parte del código se utiliza para crear múltiples instancias de una clase en base 
       a un conjunto de datos (en este caso, los productos)*/
       const instanciaClaseAObjetos = this.getListaProductos.map(producto => {
         return {
           codigoProducto: producto.getCodigoProducto,
-          nombreProducto: producto.getnombreProducto,
+          nombreProducto: producto.getNombreProducto,
           inventarioProducto: producto.getInventarioProducto,
           precioProducto: producto.getPrecioProducto
         };
       });
 // convertir de array a cadena JSON
-      const cadenaJson = JSON.stringify(instanciaClaseAObjetos, null, 2);
+      const cadenaJson = JSON.stringify(instanciaClaseAObjetos, null,2);
 //variable con el nombre del archivo
       const nombreArchivo = 'datos.json';
 //grabar la cadena JSON en el archivo
@@ -131,7 +131,7 @@ async function main() {
    la almacena en la variable productosTienda. */
   let productosTienda = new ProductosTienda;
 
-  productosTienda.cargaArchivosProductos();
+  productosTienda.cargaArchivoProductos();
 
   console.log(`Datos apertura tienda`.violet);
   
@@ -144,7 +144,7 @@ async function main() {
   console.log(`Datos de cierre de tienda`.green);
   productosTienda.mostrarProductos();
 
-  productosTienda.grabaArchivosProductos();
+  productosTienda.grabaArchivoProductos();
 
 }
 
